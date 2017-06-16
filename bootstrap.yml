@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: starplatform
+---
+
+spring:
+  profiles: local
+  cloud:
+    config:
+      env: default # optional
+      label: master # optional
+      uri: http://springy.cloudnativedotnet.com:8888/
+starplatform:
+  foo: buz
+      
+      
+      
